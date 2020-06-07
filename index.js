@@ -4,7 +4,7 @@ const https = require('https');
 const fs = require('fs');
 const os = require('os');
 const path = require('path');
-const execFile = require('child_process').execFile;
+const spawn = require('child_process').spawn;
 
 
 async function checkForUpdate(options) {
@@ -63,7 +63,7 @@ async function downloadNewVersion(asset) {
 };
 
 async function executeUpdate(filePath) {
-	execFile(filePath);
+	spawn(filePath, {detached: true});
 };
 
 module.exports = {
