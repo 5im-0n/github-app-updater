@@ -8,7 +8,7 @@ This module will go check on GitHub if a new version is available, download it t
 
 `npm i github-app-updater`
 
-```
+```javascript
 const gau = require('github-app-updater');
 
 gau.checkForUpdate({
