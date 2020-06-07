@@ -1,0 +1,19 @@
+{
+  "name": "github-app-updater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/S2-/github-app-updater.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "semver": "^7.3.2"
+  }
+}

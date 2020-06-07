@@ -1,0 +1,38 @@
+{"parserOptions":
+	{"ecmaVersion": 8},
+	"rules": {
+		"quotes": ["error", "single", {"allowTemplateLiterals": true, "avoidEscape": true}],
+		"curly": ["error", "all"],
+		"keyword-spacing": ["error", {"overrides": {"else": {"before": true}, "catch": {"before": true, "after": false}}}],
+		"space-before-blocks": ["error", "always"],
+		"wrap-iife": ["error", "inside"],
+		"space-before-function-paren": ["error", {
+			"anonymous": "never",
+			"named": "never",
+			"asyncArrow": "always"
+		}],
+		"one-var": ["error", "never"],
+		"vars-on-top": 0, "no-empty": ["error", {"allowEmptyCatch": true}],
+		"array-bracket-spacing": ["error", "never"],
+		"space-in-parens": ["error", "never"],
+		"no-underscore-dangle": 0,
+		"comma-style": ["error", "last"],
+		"comma-spacing": ["error", {"before": false, "after": true}],
+		"space-unary-ops": ["error", {"words": false, "nonwords": false}],
+		"no-multi-spaces": 2,
+		"space-infix-ops": 2,
+		"no-with": 2,
+		"indent": ["error", "tab", {"SwitchCase": 1, "FunctionExpression": {"body": 1, "parameters": 1}, "MemberExpression": 0}],
+		"no-mixed-spaces-and-tabs": 2,
+		"no-trailing-spaces": 2,
+		"comma-dangle": ["error", "never"],
+		"semi": ["error", "always"],
+		"brace-style": ["error", "1tbs", {"allowSingleLine": true}],
+		"eol-last": 2,
+		"dot-notation": 0,
+		"no-multi-str": 2,
+		"key-spacing": ["error", {"afterColon": true}],
+		"func-call-spacing": ["error", "never"],
+		"no-console": 1
+	}
+}
