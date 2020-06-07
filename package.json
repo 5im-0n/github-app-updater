@@ -15,5 +15,10 @@
   "dependencies": {
     "node-fetch": "^2.6.0",
     "semver": "^7.3.2"
-  }
+  },
+  "keywords": [
+    "github",
+    "autoupdate",
+    "update"
+  ]
 }
