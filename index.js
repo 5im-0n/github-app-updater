@@ -63,7 +63,11 @@ async function downloadNewVersion(asset) {
 };
 
 async function executeUpdate(filePath) {
-	spawn(filePath, {detached: true});
+	const subprocess = spawn(filePath, {
+		detached: true,
+		stdio: 'ignore'
+	});
+	subprocess.unref();
 };
 
 module.exports = {
