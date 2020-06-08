@@ -49,7 +49,7 @@ Downloads the new release from GitHub to a temp folder.
 
 Executes the downloaded installer for the new version.
 
-- `file <string>` the `file` path received as parameter on the `onNewVersionReadyToInstall` event`.
+- `file <string>` the `file` path received as parameter on the `onNewVersionReadyToInstall` event.
 
 ### Events
 
@@ -66,4 +66,4 @@ This event can be used to tell the user that there is a new version available, a
 Callback that is invoked when the new version is downloaded and ready to be installed.  
 This event can be used to tell the user that the new version is ready to be installed, and ask him if he wants to go ahead with the installation.
 
-- `file <string>` path of the installer that was downloaded`
+- `file <string>` path of the installer that was downloaded.
